@@ -1,0 +1,6 @@
+manim==0.21.0
+manim-slides==5.7.0
+Pillow<12          # Pillow 12+ breaks ImageMobject in manim 0.21
+matplotlib>=3.8    # equations are rendered with matplotlib mathtext (no LaTeX needed)
+numpy
+python-pptx        # only needed for PowerPoint export
